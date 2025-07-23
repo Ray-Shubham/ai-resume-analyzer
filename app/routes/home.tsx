@@ -23,7 +23,7 @@ export default function Home() {
 
   
   return (
-    <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+    <main className="bg-[url('/images/bg-main.svg')] bg-cover bg-center bg-no-repeat">
       <Navbar />
       <section className="main-section">
         <div className="page-heading">

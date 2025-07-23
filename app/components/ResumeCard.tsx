@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router'
 import ScoreCircle from './ScoreCircle'
 
@@ -18,7 +17,7 @@ const ResumeCard = ({ resume : { id, companyName, jobTitle, feedback, imagePath}
 
         <div className='gradient-border animate-in fade-in duration-1000'>
             <div className='w-full h-full'>
-                <img src={imagePath} alt="resume" className='w-full h-[350px] max-sm:h-[200px] object-cover object-top' />
+                <img src={imagePath} alt="resume" className='w-full h-[250px] xs:h-[300px] sm:h-[350px] object-cover object-top' />
             </div>
         </div>
     </Link>
